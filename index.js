@@ -37,7 +37,7 @@ function reduceToAllTrue(sourceArray) {
         }
         return memo
     }
-    let result = sourceArray.reduce(rfx, true)
+    let result = sourceArray.reduce(rfx)
     return result
 }
 
